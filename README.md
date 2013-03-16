@@ -44,7 +44,7 @@ Thumbs Up can:
       "url": "http://zeke.sikelianos.com/",
       "height": "300",
       "width": "400"
-      "thumbnail": 'https://s3.aws.amazon.com/some-url.png'
+      "thumbnail": "https://s3.aws.amazon.com/thumbsup/sha1.png"
     },
     {
       "id": "unique_id",
@@ -52,7 +52,7 @@ Thumbs Up can:
       "url": "http://zeke.sikelianos.com/some-image.jpg",
       "height": "300",
       "width": "400"
-      "thumbnail": 'https://s3.aws.amazon.com/another-url.png'
+      "thumbnail": "https://s3.aws.amazon.com/thumbsup/sha1.png"
     }
   ]
   ```
