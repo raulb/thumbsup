@@ -10,6 +10,11 @@ Thumbs Up can:
 
 ## Generating Thumbnails
 
+* `clip` an image to reduce it to fit in the dimensions specified. If either
+  `height` or `width` are not provided it will scale proportionally.
+
+* `crop` an image from the center to a specified `height` and `width`.
+
 ### Request
 
 * HTTP Method: POST
