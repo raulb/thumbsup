@@ -18,15 +18,27 @@ Thumbs Up can:
 
   ```js
   [
+    // Image thumbnails
     {
-      "url": "http://zeke.sikelianos.com/",
+      "url": "http://zeke.sikelianos.com/some-image.jpg",
       "height": "300",
-      "width": "400"
+      "width": "400",
+      "fit": "clip"
     },
     {
-      "id": "unique_id",
-      "foo": "bar",
       "url": "http://zeke.sikelianos.com/some-image.jpg",
+      "height": "300",
+      "width": "400",
+      "fit": "crop"
+
+      // Optional pass-through parameters
+      "id": "unique_id",
+      "foo": "bar"
+    },
+
+    // Website thumbnails
+    {
+      "url": "http://zeke.sikelianos.com/",
       "height": "300",
       "width": "400"
     }
@@ -40,18 +52,34 @@ Thumbs Up can:
 
   ```js
   [
+    // Image thumbnails
     {
-      "url": "http://zeke.sikelianos.com/",
+      "url": "http://zeke.sikelianos.com/some-image.jpg",
       "height": "300",
-      "width": "400"
+      "width": "400",
+      "fit": "clip",
+
       "thumbnail": "https://s3.aws.amazon.com/thumbsup/sha1.png"
     },
     {
-      "id": "unique_id",
-      "foo": "bar",
       "url": "http://zeke.sikelianos.com/some-image.jpg",
       "height": "300",
-      "width": "400"
+      "width": "400",
+      "fit": "crop",
+
+      // Optional pass-through parameters
+      "id": "unique_id",
+      "foo": "bar",
+
+      "thumbnail": "https://s3.aws.amazon.com/thumbsup/sha1.png"
+    },
+
+    // Website thumbnails
+    {
+      "url": "http://zeke.sikelianos.com/",
+      "height": "300",
+      "width": "400",
+
       "thumbnail": "https://s3.aws.amazon.com/thumbsup/sha1.png"
     }
   ]
