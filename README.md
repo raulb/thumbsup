@@ -10,10 +10,16 @@ Thumbs Up can:
 
 ## Generating Thumbnails
 
+![http://cl.ly/image/1i271u3i1b0s/content](http://cl.ly/image/1i271u3i1b0s/content)
+
 * `clip` an image to reduce it to fit in the dimensions specified. If either
   `height` or `width` are not provided it will scale proportionally.
 
+  ![http://cl.ly/image/3O1c2l110u0e/content](http://cl.ly/image/3O1c2l110u0e/content)
+
 * `crop` an image from the center to a specified `height` and `width`.
+
+  ![http://cl.ly/image/0P1H3N1d101A/content](http://cl.ly/image/0P1H3N1d101A/content)
 
 ### Request
 
